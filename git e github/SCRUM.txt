@@ -1,0 +1,85 @@
+----------------------------------- SCRUM ------------------------------------
+
+
+
+--------- GESTÃO DE PROJETOS 
+
+
+
+
+waterfall => antigo, tradicional.
+
+
+ágil => o projeto é construído por partes, com no máximo um mês em cada parte
+        (requisitos, análise, construção, testes, liberação.) cada parte é um          ciclo, acabou um ciclo vai pro outro (iterativo).
+
+
+
+ágil => escopo adaptativo (pode mudar o projeto ao longo do desenvolvimento)
+        projeto controlado por funcionalidades entregues.
+        o cliente pode ver o software funcionando na parte inicial do projeto          ainda.
+        mudanças constantes no decorrer do projeto.
+        consigo ver se o projeto estava errado em no máximo 30 dias.
+
+
+
+pilares do Scrum  =>  transparência, adaptação, inspeção. (mais conversa e                           escrever menos, mostrar o software constamente para os                         usuarios, os requisitos mudam ao longo do tempo,                               aprender progressivamente com o uso do software.)
+                      usuario envolvido em todo o ciclo do desenvolvimento.
+
+
+
+papéis e responsabilidades  =>  product owner (PO). representante da área de                                   negocios, explica para o time de                                               desenvolvimento o que fazer para  para uma                                     determinada funcionalidade.
+                                prioriza o backlog
+
+                                scrum master (SM). garante o uso correto do                                    scrum.
+                                auxilia o PO na explicação do projeto, e toda                                  a equipe.
+
+                                time de desenvovimento (DEV). programadores.
+
+
+
+-------------- CERIMONIAS NO SCRUM
+
+
+
+
+Time box   =>   tempo máximo pra fazer uma cerimônia ou sprint.
+
+
+
+sprint     =>   1 sprint dura no máximo 30 dias corridos.
+                (planejamento da sprint, reunioes diarias(daily meeting),                      revisao da sprint, retrospectiva).
+  
+ 
+
+planejamento da sprint  =>  time box dura 8hs (sprint de 30 dias)
+                            o PO fala o que fazer, quais são as                                            funcionalidades e o porque delas.
+                            planning poker (estimativa de todas as tarefas                                 para entregar ao PO, para falar o que será                                     entregue naquela sprint)
+
+
+
+reunioes diarias       =>   daily meeting reunioes diárias
+                            time-box (15 minutos)
+                            (tarefas em andamento, e as que faltam fazer)
+                            no ultimo dia da sprint o time dev apresenta pra o 
+                            PO o projeto, se ele aceitar, já está em produção.
+
+
+
+retrospectiva da sprint  => no ultimo dia também, é feito uma reuniao para                                 apontar os erros do time. (transparencia)
+                         
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+-------------------------- COMANDOS BÁSICOS NO TERMINAL-----------------------
+
+
+
+
+dir => lista as pastas dentro do diretorio.
+
+cd nome da pasta => entar em uma pasta, apertando TAB ele auto-completa o nome da pasta.
+
+cd .. => volta pra pasta anterior.
+
+mkdir nome da pasta => cria uma pasta.
+
+echo hello > hello.txt =>  cria um arquivo hello.txt.
+
+del nome da pasta => deleta tudo dentro na pasta ou arquivo.
+
+rmdir nome da pasta /S /Q => deleta toda a pasta, tem que está um nível antes.
+
+

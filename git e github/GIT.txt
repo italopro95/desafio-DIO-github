@@ -1,0 +1,119 @@
+------------------------------------  GIT  ----------------------------------------
+
+
+
+SHA => algoritmo de criptação, embaralha qualquer arquivo, criptografando ele. Foi desenvolvido pela agencia de segurança nacional dos EUA.
+
+openssl sha1 nome do arquivo => criptografa o arquivo. se mudar qualquer caractere do arquivo ele gera uma nova chave.
+
+
+
+
+
+------- OBJETOS DO GIT
+
+
+
+blobs => contém metadados dos arquivos no git, tamanho do arquivo, tipo do objeto.
+
+tree  => árvores que armazenam as blobs, aponta para um blob ou outras árvores, monta a estrutura do arquivo.
+
+commit => junta tudo 
+
+
+commit => tree => blobs
+
+
+
+
+
+----------- GERANDO CHAVES SSH
+
+
+
+ssh-keygen -t ed25519 -C email => gera chave ssh publica e privada. depois entro no diretorio que as chaves estão cd /c/users/GALILLEO/.ssh
+
+cat id_ed25519.pub => mostra o conteúdo dentro das chaves, sempre se usa a chave pública.    
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILqphluAmnzIqLbhyI3LpvLHh13qTyZ4P+NJgPy9P1yr italotec700@gmail.com
+
+copio e colo no github
+
+na pasta onde estão as chaves rodo o comando  eval $(ssh-agent -s) vai retornar um agent pid (numero)
+
+ssh-add id_ed25519   passo a chave privada, o agent descriptografa a menssagem.
+
+no github copio a chave ssh, vou no bash e digito git clone chave ssh para clonar o repositório.
+
+
+
+
+
+
+------------- COMANDOS GIT
+
+
+
+untraked   =>  ainda nao conhecido pelo git.
+
+unmodified =>  arquivo ainda não modificado. se for modificado, o git                         reconhece a modificação  pelo sha1 e muda para modified.
+               se o arquivo for removido ele volta pra untracked.
+                
+modified   =>  arquivo modificado, se rodar o git add ele vai pra staged.
+
+staged     =>  onde os arquivos ficam se preparando para fazer parte de um                    agrupamento.
+
+commit     =>  volta os arquivos para unmodified 
+
+
+git init => inicializa o repositório.
+
+ls -a    => mostra pastas ocultas no bash.
+
+git config --global user.email "email"
+
+git config --global user.name nome
+
+git add * => dentro da pasta onde está o arquivo que será comitado, coloca                  tudo em staged
+
+git add nome do arquivo => coloca o arquivo em staged.
+
+
+git status => mostra o estado do arquivo.
+
+git commit -m "comentario" => commit do arquivo.
+
+mv strogonoff.md ./receitas => move o arquivo. (./nome da pasta) coloca o arquivo um nivel antes.
+
+git add nome do arquivo pasta que contém o arquivo/  =>  coloca o arquivo em staged para serem comitados.
+
+git restore --staged nome do arquivo => tira o arquivo de staged
+
+
+git remote add origin link https => cadastra o repositório remoto.(origin é                                        apelido)
+
+git remote -v  => lista os repositórios cadastrados.
+
+
+git push origin master => envia os arquivos para o repositório.  
+
+
+
+
+
+
+FLUXO DO GIT =>  WORKING DIRECTORY >>>> STAGING AREA >>>> LOCAL REPOSITORY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
